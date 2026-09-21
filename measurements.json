@@ -1,0 +1,40 @@
+{
+  "model": "flash-3",
+  "model_id": "gemini-3-flash-preview",
+  "token_counts": {
+    "sentence": {
+      "en": 13,
+      "ru": 18,
+      "kk": 31
+    },
+    "complaint": {
+      "en": 60,
+      "ru": 79,
+      "kk": 149
+    },
+    "system_prompt": {
+      "en": 41,
+      "ru": 52,
+      "kk": 88
+    }
+  },
+  "request_tokens": {
+    "en": 101,
+    "ru": 131,
+    "kk": 237
+  },
+  "one_request_billed": {
+    "en": {
+      "input_tokens": 101,
+      "output_tokens": 1211
+    },
+    "ru": {
+      "input_tokens": 131,
+      "output_tokens": 865
+    },
+    "kk": {
+      "input_tokens": 237,
+      "output_tokens": 1178
+    }
+  }
+}
