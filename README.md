@@ -4,7 +4,9 @@ Course: AI CSS4007-ENG-5
 1.	Prediction from Part1 and measured values
 Tokenizers are typically trained primarily on English text, so they handle Russian better than Kazakh. Consequently, Russian text results in fewer tokens than the raw byte count would suggest, whereas Kazakh—which includes rare characters like ә, ғ, қ, ң, ө, ұ, ү, һ, and і—likely yields an equal or greater number of tokens. English text averages about one token per four characters, or roughly 1.3 tokens per word. For Russian and Kazakh, one generally expects 1.5 to 3 times as many tokens as for English, depending on the specific tokenizer.
 COMPLAINT
+
                          EN           RU           KK
+  	
 bytes/EN              1.00x        1.92x        2.13x
 
 
