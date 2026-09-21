@@ -11,6 +11,7 @@ bytes                   300          576          640
 words                    54           45           42
 bytes/EN              1.00x        1.92x        2.13x
 bytes/char             1.00         1.83         1.86
+
 counting tokens on gemini-3-flash-preview (free, no model run)
   sentence       en=13  ru=18  kk=31
   complaint      en=60  ru=79  kk=149
